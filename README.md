@@ -12,6 +12,7 @@
 论坛由帖子（post），评论（comment）及回复（reply）三部分组成
 # post
 [分页获取帖子列表](https://github.com/jovan-liu/post_system/blob/master/post/page.md)  
+[根据分类ID获取分页帖子列表](https://github.com/jovan-liu/post_system/blob/master/post/pageByCategoryId.md)  
 [根据ID获取帖子](https://github.com/jovan-liu/post_system/blob/master/post/get.md)  
 [新增帖子](https://github.com/jovan-liu/post_system/blob/master/post/save.md)  
 [修改帖子](https://github.com/jovan-liu/post_system/blob/master/post/update.md)  
