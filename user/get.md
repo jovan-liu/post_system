@@ -1,6 +1,6 @@
 # Get User
 ---
-# 请求类型: POST
+# 请求类型: GET
 # URL: https://jovanapi.top/user/register/{userName}
 # 返回值:
 <pre><code>
