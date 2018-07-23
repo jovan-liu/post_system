@@ -18,7 +18,8 @@ loginId   | 登录ID，若登录，需填此项 | Long
         "postId": 1,
         "content": "test comment A",
         "repliesCount": 3,
-        "points": null,
+        "points": 1,
+        "isUpvoted":true,
         "fromUid": 2,
         "fromUserName": "test@user2",
         "createdOn": "2018-07-23T07:19:41.000+0000"
