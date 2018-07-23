@@ -31,7 +31,7 @@
 [修改回复](https://github.com/jovan-liu/post_system/blob/master/reply/update.md)  
 [删除回复]()  （暂未提供该API）
 
-# vote（点赞）
+# 点赞模块
 [点赞](https://github.com/jovan-liu/post_system/blob/master/vote/save.md)  
 [更改点赞](https://github.com/jovan-liu/post_system/blob/master/vote/update.md)  
 [取消点赞](https://github.com/jovan-liu/post_system/blob/master/vote/delete.md)  
