@@ -27,7 +27,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
                 "postType": "text", // 帖子类型
                 "totalCount": 5, // 总回复数 = commentsCount + repliesCount
                 "points": 1, // 点赞数
-                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
+                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false）
                 "createUserId": 1, // 创建人ID
                 "createUserName": "test@user1", // 创建人用户名
                 "createdOn": "2018-07-23T07:19:02.000+0000" // 创建时间
