@@ -18,12 +18,12 @@ pageSize  | 一页多少        | Integer
             {
                 "id": 1,
                 "categoryId": 1, // 分类ID
-                "categoryName": "lundao", // 分类名称
+                "categoryName": "论道", // 分类名称
                 "title": "test title", // 标题
                 "content": "test content", // 内容
                 "postType": "text", // 帖子类型
                 "totalCount": 5, // 总回复数 = commentsCount + repliesCount
-                "points": null, // 点赞数
+                "points": 1, // 点赞数
                 "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
                 "createUserId": 1, // 创建人ID
                 "createUserName": "test@user1", // 创建人用户名
