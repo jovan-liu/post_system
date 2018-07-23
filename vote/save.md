@@ -9,7 +9,7 @@
 userId | 用户ID   | Long
 postId  | 帖子ID        | String
 voteType   | 点赞 (upvoted)          | String
-# Tip: 评论及回复点赞，只需将post换成对应的名称就行，如https://jovanapi.top/commentVote,comment, 故不再另写API
+# Tip: 评论及回复点赞，只需将post换成对应的名称就行，如https://jovanapi.top/commentVote?userId=1&commentId=1&voteType=upvoted, 故不再另写API
 # 返回值:
 <pre><code>
 {
