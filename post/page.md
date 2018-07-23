@@ -5,8 +5,8 @@
 # 参数:
 参数名 | 说明                   | 类型
 ----- |----------------------- | ----
-pageNum | 第几页   | String
-pageSize  | 一页多少        | String
+pageNum | 第几页   | Integer
+pageSize  | 一页多少        | Integer
 # 返回值:
 <pre><code>
 {
