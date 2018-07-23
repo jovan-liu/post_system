@@ -23,7 +23,8 @@ pageSize  | 一页多少        | Integer
                 "replyType": "Comment", // 回复类型 Comment Reply
                 "replyLevel": 1, // 回复等级
                 "content": "test reply AA", // 内容
-                "points": null, // 点赞数（暂未实现）
+                "points": 1, // 点赞数
+                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
                 "fromUid": 3, // 回复人ID
                 "fromUserName": "test@user3", // 回复人用户名
                 "toUid": 2, // 被回复人ID
@@ -38,7 +39,8 @@ pageSize  | 一页多少        | Integer
                 "replyType": "Reply",
                 "replyLevel": 2,
                 "content": "test reply BB",
-                "points": null,
+                "points": 0,
+                "isUpvoted": false,
                 "fromUid": 2,
                 "fromUserName": "test@user2",
                 "toUid": 3,
