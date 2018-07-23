@@ -9,6 +9,7 @@ pageNum | 第几页   | Integer
 pageSize  | 一页多少        | Integer
 isLogin   | 是否登录（true/false） | Boolean
 loginId   | 登录ID，若登录，需填此项 | Long
+# Tip: 当isLogin=true且loginId不为空时为登录状态
 # 返回值:
 <pre><code>
 {
