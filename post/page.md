@@ -17,16 +17,16 @@ pageSize  | 一页多少        | Integer
         "list": [
             {
                 "id": 1,
-                "categoryId": 1,
-                "categoryName": "lundao",
-                "title": "test title",
-                "content": "test content",
-                "postType": "text",
-                "totalCount": 5,
-                "points": null,
-                "createUserId": 1,
-                "createUserName": "test@user1",
-                "createdOn": "2018-07-23T07:19:02.000+0000"
+                "categoryId": 1, // 分类ID
+                "categoryName": "lundao", // 分类名称
+                "title": "test title", // 标题
+                "content": "test content", // 内容
+                "postType": "text", // 帖子类型
+                "totalCount": 5, // 总回复数 = commentsCount + repliesCount
+                "points": null, // 点赞数（暂未实现）
+                "createUserId": 1, // 创建人ID
+                "createUserName": "test@user1", // 创建人用户名
+                "createdOn": "2018-07-23T07:19:02.000+0000" // 创建时间
             }
         ],
         "pageNum": 1,
