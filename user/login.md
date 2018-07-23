@@ -8,6 +8,7 @@
 userName | 用户名（唯一,必填）   | String
 password  | 密码（必填）        | String
 # 返回值:
+<pre><code>
 {
     "code": 200,
     "msg": "user login successfully",
