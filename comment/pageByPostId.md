@@ -1,7 +1,7 @@
 # Comment page by postId
 ---
 # 请求类型: GET
-# URL: https://jovanapi.top/posts/{pid}/comments?pageNum=1&pageSize=2
+# URL: https://jovanapi.top/posts/{pid}/comments
 # 参数:
 参数名 | 说明                   | 类型
 ----- |----------------------- | ----
