@@ -23,7 +23,8 @@ pageSize  | 一页多少        | Integer
                 "content": "test content", // 内容
                 "postType": "text", // 帖子类型
                 "totalCount": 5, // 总回复数 = commentsCount + repliesCount
-                "points": null, // 点赞数（暂未实现）
+                "points": null, // 点赞数
+                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
                 "createUserId": 1, // 创建人ID
                 "createUserName": "test@user1", // 创建人用户名
                 "createdOn": "2018-07-23T07:19:02.000+0000" // 创建时间
