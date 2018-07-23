@@ -1,4 +1,4 @@
-# Register User
+# Save Post
 ---
 # 请求类型: POST
 # URL: https://jovanapi.top/posts
