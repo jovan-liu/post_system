@@ -20,7 +20,8 @@ pageSize  | 一页多少        | Integer
                 "postId": 1, // 帖子ID
                 "content": "test comment A", // 内容
                 "repliesCount": 3, // 回复总数 = repliesCount
-                "points": null, // 点赞数（暂未实现）
+                "points": 1, // 点赞数
+                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
                 "fromUid": 2, // 评论人ID
                 "fromUserName": "test@user2", // 评论人用户名
                 "createdOn": "2018-07-23T07:19:41.000+0000" // 评论时间
@@ -30,7 +31,8 @@ pageSize  | 一页多少        | Integer
                 "postId": 1,
                 "content": "test comment B",
                 "repliesCount": 0,
-                "points": null,
+                "points": 0,
+                "isUpvoted": false,
                 "fromUid": 3,
                 "fromUserName": "test@user3",
                 "createdOn": "2018-07-23T07:19:41.000+0000"
