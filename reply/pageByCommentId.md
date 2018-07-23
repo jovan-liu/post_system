@@ -17,18 +17,18 @@ pageSize  | 一页多少        | Integer
         "list": [ // 当前分页数据
             {
                 "id": 1,
-                "postId": 1,
-                "commentId": 1,
-                "replyId": null,
-                "replyType": "Comment",
-                "replyLevel": 1,
-                "content": "test reply AA",
-                "points": null,
-                "fromUid": 3,
-                "fromUserName": "test@user3",
-                "toUid": 2,
-                "toUserName": "test@user2",
-                "createdOn": "2018-07-23T07:21:23.000+0000"
+                "postId": 1, // 帖子ID
+                "commentId": 1, // 评论ID
+                "replyId": null, // 回复父ID
+                "replyType": "Comment", // 回复类型 Comment Reply
+                "replyLevel": 1, // 回复等级
+                "content": "test reply AA", // 内容
+                "points": null, // 点赞数（暂未实现）
+                "fromUid": 3, // 回复人ID
+                "fromUserName": "test@user3", // 回复人用户名
+                "toUid": 2, // 被回复人ID
+                "toUserName": "test@user2", // 被回复人用户名
+                "createdOn": "2018-07-23T07:21:23.000+0000" // 回复时间
             },
             {
                 "id": 2,
