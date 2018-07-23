@@ -24,7 +24,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
                 "content": "test comment A", // 内容
                 "repliesCount": 3, // 回复总数 = repliesCount
                 "points": 1, // 点赞数
-                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
+                "isUpvoted": true, // 当前用户是否点赞（匿名用户默认false）
                 "fromUid": 2, // 评论人ID
                 "fromUserName": "test@user2", // 评论人用户名
                 "createdOn": "2018-07-23T07:19:41.000+0000" // 评论时间
