@@ -7,6 +7,9 @@
 ----- |----------------------- | ----
 pageNum | 第几页   | Integer
 pageSize  | 一页多少        | Integer
+isLogin   | 是否登录（true/false） | Boolean
+loginId   | 登录ID，若登录，需填此项 | Long
+# Tip: 当isLogin=true且loginId不为空时为登录状态
 # 返回值:
 <pre><code>
 {
@@ -24,7 +27,7 @@ pageSize  | 一页多少        | Integer
                 "replyLevel": 1, // 回复等级
                 "content": "test reply AA", // 内容
                 "points": 1, // 点赞数
-                "isUpvoted": false, // 当前用户是否点赞（匿名用户默认false，登录用户尚未实现）
+                "isUpvoted": true, // 当前用户是否点赞（匿名用户默认false）
                 "fromUid": 3, // 回复人ID
                 "fromUserName": "test@user3", // 回复人用户名
                 "toUid": 2, // 被回复人ID
