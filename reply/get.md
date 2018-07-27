@@ -22,7 +22,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
         "replyLevel": 1,
         "content": "test reply AA",
         "points": 1,
-        "isUpvoted":true,
+        "voteType": upvoted, // 当前用户点赞状态（匿名用户统一为null）
         "fromUid": 3,
         "fromUserName": "test@user3",
         "toUid": 2,
