@@ -26,7 +26,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
                 "content": "test content", // 内容
                 "postType": "text", // 帖子类型
                 "totalCount": 5, // 总回复数 = commentsCount + repliesCount
-                "points": 1, // 点赞数
+                "points": 1, // 点赞数 = 总的upvoted - 总的downvoted
                 "voteType": upvoted, // 当前用户点赞状态（匿名用户统一为null）
                 "createUserId": 1, // 创建人ID
                 "createUserName": "test@user1", // 创建人用户名
