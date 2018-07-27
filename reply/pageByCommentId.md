@@ -27,7 +27,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
                 "replyLevel": 1, // 回复等级
                 "content": "test reply AA", // 内容
                 "points": 1, // 点赞数
-                "isUpvoted": true, // 当前用户是否点赞（匿名用户默认false）
+                "voteType": upvoted, // 当前用户点赞状态（匿名用户统一为null）
                 "fromUid": 3, // 回复人ID
                 "fromUserName": "test@user3", // 回复人用户名
                 "toUid": 2, // 被回复人ID
@@ -43,7 +43,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
                 "replyLevel": 2,
                 "content": "test reply BB",
                 "points": 0,
-                "isUpvoted": false,
+                "voteType": upvoted,
                 "fromUid": 2,
                 "fromUserName": "test@user2",
                 "toUid": 3,
