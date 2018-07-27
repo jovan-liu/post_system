@@ -19,7 +19,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
         "content": "test comment A",
         "repliesCount": 3,
         "points": 1,
-        "isUpvoted":true,
+        "voteType": upvoted, // 当前用户点赞状态（匿名用户统一为null）
         "fromUid": 2,
         "fromUserName": "test@user2",
         "createdOn": "2018-07-23T07:19:41.000+0000"
