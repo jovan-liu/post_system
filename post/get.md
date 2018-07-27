@@ -23,7 +23,7 @@ loginId   | 登录ID，若登录，需填此项 | Long
         "postType": "text",
         "totalCount": 5,
         "points": 1,
-        "isUpvoted":true,
+        "voteType": upvoted, // 当前用户点赞状态（匿名用户统一为null）
         "createUserId": 1,
         "createUserName": "test@user1",
         "createdOn": "2018-07-23T07:19:02.000+0000"
