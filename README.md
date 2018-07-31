@@ -37,3 +37,8 @@
 [点赞](https://github.com/jovan-liu/post_system/blob/master/vote/save.md)  
 [更改点赞](https://github.com/jovan-liu/post_system/blob/master/vote/update.md)  
 [取消点赞](https://github.com/jovan-liu/post_system/blob/master/vote/delete.md)  
+
+# 商品模块
+[分页获取商品列表](https://github.com/jovan-liu/post_system/blob/master/item/page.md)  
+[根据ID获取商品](https://github.com/jovan-liu/post_system/blob/master/item/get.md)  
+[根据ID删除商品](https://github.com/jovan-liu/post_system/blob/master/item/delete.md)  
