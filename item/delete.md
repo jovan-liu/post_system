@@ -5,7 +5,7 @@
 # 返回值:
 <pre><code>
 {
-    "code": 201,
+    "code": 204,
     "msg": "item deleted successfully",
     "data": {}
 }
