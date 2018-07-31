@@ -4,5 +4,9 @@
 # URL: https://jovanapi.top/items/{id}
 # 返回值:
 <pre><code>
-
+{
+    "code": 201,
+    "msg": "item deleted successfully",
+    "data": {}
+}
 </code></pre>
