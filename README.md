@@ -16,7 +16,7 @@
 [根据ID获取帖子](https://github.com/jovan-liu/post_system/blob/master/post/get.md)  
 [新增帖子](https://github.com/jovan-liu/post_system/blob/master/post/save.md)  
 [修改帖子](https://github.com/jovan-liu/post_system/blob/master/post/update.md)  
-[删除帖子]()  （暂未提供该API）
+[删除帖子]()  （暂未提供该API）  
 [查询热门帖子](https://github.com/jovan-liu/post_system/blob/master/post/hot.md)  （新增API）
 
 # comment
