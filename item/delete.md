@@ -1,4 +1,4 @@
-# Delete Post
+# Delete Item
 ---
 # 请求类型: DELETE
 # URL: https://jovanapi.top/items/{id}
